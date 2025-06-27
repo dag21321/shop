@@ -53,9 +53,13 @@ body {
 .field {
   font-size: medium;
   color: black;
-  margin: 15px auto;
-  width: 300px;
-  text-align: left;
+  border: 1px solid #eee;
+  background-color: #eee;
+  border-radius: 10px;
+  padding: 7px 20px;
+  width: 275px;
+  text-align: center;
+  margin: 40px auto;
 }
 
 .ex {
