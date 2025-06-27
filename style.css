@@ -4,18 +4,33 @@ body {
   padding: 0;
 }
 
-.order {
-  font-size: medium;
-  text-decoration: none;
+.order1 {
   color: black;
-  border: 1px solid #EEEEEE;
-  background-color: #EEEEEE;
+  border: 1px solid #eee;
+  background-color: #eee;
   border-radius: 10px;
   padding: 7px 20px;
-  position: relative;
-  top: 25px;
-  left: 20px;
+  font-size: medium;
   display: inline-block;
+  position: relative;
+  left: 45px;
+  bottom: 95px;
+  margin-right: 785px;
+}
+
+.order2 {
+  color: black;
+  border: 1px solid #eee;
+  background-color: #eee;
+  border-radius: 10px;
+  padding: 7px 20px;
+  font-size: medium;
+  display: inline-block;
+  position: relative;
+  left: 255px;
+  bottom: 160px;
+  margin-right: 480px;
+  margin-top: 30px;
 }
 
 .title {
@@ -28,9 +43,9 @@ body {
 
 .title2 {
   font-size: 20px;
+  text-align: center;
   position: relative;
   top: 15px;
-  text-align: center;
   margin: 0;
 }
 
@@ -43,36 +58,6 @@ body {
   padding: 10px;
 }
 
-.order1 {
-  font-size: medium;
-  color: black;
-  border: 1px solid #EEEEEE;
-  background-color: #EEEEEE;
-  border-radius: 10px;
-  padding: 7px 20px 7px 20px;
-  position: relative;
-  left: 45px;
-  bottom: 95px;
-  margin-right: 785px ;
-}
-
-.order2 {
-  font-size: medium;
-  color: black;
-  border: 1px solid #EEEEEE;
-  background-color: #EEEEEE;
-  border-radius: 10px;
-  padding: 7px 20px 7px 20px;
-  position: relative;
-  left: 255px;
-  bottom: 160px;
-  margin-right: 480px ;
-  margin-top: 30px ;
-}
-
 .ex {
-  color: #D0D0D0;
+  color: #d0d0d0;
 }
-
-
-
