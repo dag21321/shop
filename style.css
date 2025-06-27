@@ -1,6 +1,7 @@
 body {
   font-family: 'Inter', sans-serif;
-  display: block;
+  margin: 0;
+  padding: 0;
 }
 
 .order {
@@ -10,10 +11,11 @@ body {
   border: 1px solid #EEEEEE;
   background-color: #EEEEEE;
   border-radius: 10px;
-  padding: 7px 20px 7px 20px;
+  padding: 7px 20px;
   position: relative;
   top: 25px;
   left: 20px;
+  display: inline-block;
 }
 
 .title {
@@ -21,19 +23,24 @@ body {
   font-size: 65px;
   position: relative;
   bottom: 20px;
+  margin: 0;
 }
 
-.title2{
+.title2 {
   font-size: 20px;
   position: relative;
-  bottom: 30px;
+  top: 15px;
+  text-align: center;
+  margin: 0;
 }
 
-.tech{
+.tech {
   text-align: center;
-  position: relative;
-  left: 365px;
-  bottom:285px; 
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 10px;
 }
 
 .order1 {
