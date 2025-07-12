@@ -47,7 +47,7 @@ body {
   padding: 7px 20px;
   width: 100px;
   text-align: center;
-  margin: 40px auto;
+  text-decoration: none;
 }
 
 .field {
@@ -63,5 +63,13 @@ body {
 }
 
 .ex {
-  color: #d0d0d0;
+  color: #c2c2c2;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
